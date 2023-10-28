@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
-import CongratsPage from "./CongratsPage";
-import FormPage from "./FormPage";
+import CongratsPage from "./CongratsPage/Index.jsx";
+import FormPage from "./FormPage/Index.jsx";
 
 export const routes = [
     {

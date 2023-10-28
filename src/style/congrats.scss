@@ -1,0 +1,73 @@
+.Congrats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 90px auto;
+    gap: 135px;
+}
+
+.MainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.MainInfo h1 {
+    font-family: "Title_font", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    text-align: center;
+    width: 1100px;
+}
+
+.MainInfo p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 455px;
+    color: #FDFDFD;
+    letter-spacing: 1px;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footerInfo p {
+    font-family: "Title_font", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    width: 456px;
+}
+
+.phoneFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.phoneFooter span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.networksIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
