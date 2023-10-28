@@ -25,7 +25,7 @@ export default function FormPage() {
   const BotYuborish = async () => {
 
 
-    const apiToken = '6831470536:AAGWYVKyGKAMfk9qkelLSGfNGDoU0xPX-2k';
+    const apiToken = process.env.REACT_APP_BOT_TOKEN;
     const chatId = '-1001948727154';
 
     const message = `
