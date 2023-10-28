@@ -29,7 +29,7 @@ export default function FormPage() {
     const chatId = '-1001948727154';
 
     const message = `
-      Yangi foydalanuvchi:  
+      10% li chegirma uchun:  
       Ism Familya: ${formData.name}
       Telefon Raqam: ${formData.tel}
     `;
