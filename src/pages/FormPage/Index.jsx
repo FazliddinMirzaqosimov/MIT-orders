@@ -58,8 +58,8 @@ export default function FormPage() {
   return (
     <div className='FormPage'>
       <div className="HeaderText">
-        <h1>MIT Academydan 1 oylik kurs uchun 15% olishni istasangiz ro’yxatdan o’ting.</h1>
-        <p>Bizga so’rov qoldiring va menejerlarimiz siz bilan imkon qadar tezroq bog’lanishga harakat qilishadi. Biz haftada 7 kun, soat 10:00 dan 20:00 gacha ishlaymiz.
+        <h1>MIT Academy</h1>
+        <p>MIT Academydan 1 oylik kurs uchun 15% olishni istasangiz ro’yxatdan o’ting.
 
 </p>
       </div>
