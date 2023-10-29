@@ -100,7 +100,7 @@ body {
     justify-content: center;
     gap: .75rem;
     background-color: var(--crl);
-    color: #C0FF03;
+    color: #d;
     border-radius: 10rem;
     font-weight: 400;
     padding: .75rem 1.5rem;
@@ -125,8 +125,8 @@ body {
     width: 38px;
     height: 38px;
     position: relative;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #9dd003;
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -135,11 +135,12 @@ body {
 
 .button:hover {
     background-color: #9dd003;
-    border: none;
 }
 
 .button:hover .button__icon-wrapper {
     color: #9dd003;
+    background-color: #fff;
+
 }
 
 .button__icon-svg--copy {
