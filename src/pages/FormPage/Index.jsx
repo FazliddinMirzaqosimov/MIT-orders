@@ -13,8 +13,8 @@ export default function FormPage() {
   const navigate = useNavigate()
 
   const [formData, setFormData] = useState({
-    name: '',
-    tel: '+998 ',
+    name:'',
+    tel: '',
   });
 
   const inputValue = (event) => {
@@ -31,11 +31,11 @@ export default function FormPage() {
     const message = `
       10% li chegirma uchun:  
       Ism Familya: ${formData.name}
-      Telefon Raqam: ${formData.tel}
+      Telefon Raqam: +998 ${formData.tel}
     `;
 
     try {
-      if (formData.name == '', formData.tel == '+998 ') {
+      if (formData.name === '' || formData.tel === '') {
         alert('iltimos Hamma joylarni toldiring')
       }
       else {
