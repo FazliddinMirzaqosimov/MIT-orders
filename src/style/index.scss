@@ -244,26 +244,29 @@ body {
     }
 }
 
-@media (max-width:1200px)  {
-    .FooterNetworks{
+@media (max-width:1200px) and (min-width:1024px)  {
+    .FooterNetworks {
         gap: 30px;
     }
-    .Networks{
+
+    .Networks {
         gap: 15px;
     }
+
     .Network {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 16px;
     }
-    
+
     .Network p {
         font-family: "Title_font", sans-serif;
         font-size: 19px;
         font-weight: 700;
         line-height: 29px;
     }
+
     .HeaderText h1 {
         width: 915px;
         font-size: 70px;
@@ -273,7 +276,7 @@ body {
         text-align: center;
         font-family: "Title_font", sans-serif;
     }
-    
+
     .HeaderText p {
         font-size: 18px;
         font-weight: 400;
@@ -282,15 +285,16 @@ body {
         text-align: center;
         color: #FDFDFD;
         width: 470px;
-    
+
     }
-    
+
     .MainInputs {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 13px;
     }
+
     .MainInputs input {
         background-color: transparent;
         outline: none;
@@ -304,6 +308,7 @@ body {
         line-height: 30px;
         padding: 0px 16px;
     }
+
     .button {
         cursor: pointer;
         width: 306px;
@@ -330,31 +335,35 @@ body {
     }
 }
 
-@media (max-width:1023px) and (min-width:769px){
-    .MainInputs{
+@media (max-width:1023px) and (min-width:769px) {
+    .MainInputs {
         width: 660px;
         flex-wrap: wrap;
     }
-    .FooterNetworks{
+
+    .FooterNetworks {
         gap: 30px;
         flex-wrap: wrap;
     }
-    .Networks{
+
+    .Networks {
         gap: 15px;
     }
+
     .Network {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 16px;
     }
-    
+
     .Network p {
         font-family: "Title_font", sans-serif;
         font-size: 19px;
         font-weight: 700;
         line-height: 29px;
     }
+
     .HeaderText h1 {
         width: 769px;
         font-size: 60px;
@@ -364,7 +373,7 @@ body {
         text-align: center;
         font-family: "Title_font", sans-serif;
     }
-    
+
     .HeaderText p {
         font-size: 17px;
         font-weight: 400;
@@ -373,15 +382,16 @@ body {
         text-align: center;
         color: #FDFDFD;
         width: 470px;
-    
+
     }
-    
+
     .MainInputs {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 13px;
     }
+
     .MainInputs input {
         background-color: transparent;
         outline: none;
@@ -395,6 +405,7 @@ body {
         line-height: 30px;
         padding: 0px 16px;
     }
+
     .button {
         cursor: pointer;
         width: 95%;
@@ -419,7 +430,8 @@ body {
         border: 1px solid #9dd003;
         outline: none;
     }
-    .FooterInfoText{
+
+    .FooterInfoText {
         width: 645px;
         height: 52px;
         font-size: 18px;
@@ -431,30 +443,34 @@ body {
 }
 
 @media (max-width:768px) and (min-width:481px) {
-    .MainInputs{
+    .MainInputs {
         width: 100%;
         flex-wrap: wrap;
     }
-    .FooterNetworks{
+
+    .FooterNetworks {
         gap: 30px;
         flex-wrap: wrap;
     }
-    .Networks{
+
+    .Networks {
         gap: 15px;
     }
+
     .Network {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 16px;
     }
-    
+
     .Network p {
         font-family: "Title_font", sans-serif;
         font-size: 15px;
         font-weight: 700;
         line-height: 29px;
     }
+
     .HeaderText h1 {
         width: 490px;
         font-size: 45px;
@@ -464,7 +480,7 @@ body {
         text-align: center;
         font-family: "Title_font", sans-serif;
     }
-    
+
     .HeaderText p {
         font-size: 15px;
         font-weight: 400;
@@ -473,15 +489,16 @@ body {
         text-align: center;
         color: #FDFDFD;
         width: 470px;
-    
+
     }
-    
+
     .MainInputs {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 13px;
     }
+
     .MainInputs input {
         background-color: transparent;
         outline: none;
@@ -495,6 +512,7 @@ body {
         line-height: 30px;
         padding: 0px 16px;
     }
+
     .button {
         cursor: pointer;
         width: 90%;
@@ -519,7 +537,8 @@ body {
         border: 1px solid #9dd003;
         outline: none;
     }
-    .FooterInfoText{
+
+    .FooterInfoText {
         width: 481px;
         height: 52px;
         font-size: 16px;
@@ -528,35 +547,41 @@ body {
         text-align: center;
         letter-spacing: 0.5px;
     }
-    .FormPage{
+
+    .FormPage {
         gap: 100px;
     }
 }
-@media (max-width:480px)  {
-    .MainInputs{
+
+@media (max-width:480px) {
+    .MainInputs {
         width: 100%;
         flex-wrap: wrap;
     }
-    .FooterNetworks{
+
+    .FooterNetworks {
         gap: 30px;
         flex-wrap: wrap;
     }
-    .Networks{
+
+    .Networks {
         gap: 15px;
     }
+
     .Network {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 16px;
     }
-    
+
     .Network p {
         font-family: "Title_font", sans-serif;
         font-size: 15px;
         font-weight: 700;
         line-height: 29px;
     }
+
     .HeaderText h1 {
         width: 95%;
         font-size: 35px;
@@ -566,7 +591,7 @@ body {
         text-align: center;
         font-family: "Title_font", sans-serif;
     }
-    
+
     .HeaderText p {
         width: 95%;
         font-size: 15px;
@@ -576,13 +601,14 @@ body {
         text-align: center;
         color: #FDFDFD;
     }
-    
+
     .MainInputs {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 13px;
     }
+
     .MainInputs input {
         background-color: transparent;
         outline: none;
@@ -596,6 +622,7 @@ body {
         line-height: 30px;
         padding: 0px 16px;
     }
+
     .button {
         cursor: pointer;
         width: 90%;
@@ -620,7 +647,8 @@ body {
         border: 1px solid #9dd003;
         outline: none;
     }
-    .FooterInfoText{
+
+    .FooterInfoText {
         width: 95%;
         height: 52px;
         font-size: 16px;
@@ -629,7 +657,8 @@ body {
         text-align: center;
         letter-spacing: 0.5px;
     }
-    .FormPage{
+
+    .FormPage {
         gap: 100px;
     }
 }
