@@ -71,3 +71,59 @@
     align-items: center;
     gap: 40px;
 }
+
+@media (max-width:1023px) and (min-width:769px) {
+    .MainInfo{
+        width: 100%;
+    }
+    .MainInfo h1 {
+        width: auto;
+    }
+    
+    .MainInfo p {
+        width: auto;
+    }
+}
+
+@media (max-width:768px) and (min-width:481px) {
+    .MainInfo{
+        width: 100%;
+    }
+    .MainInfo h1 {
+        width: auto;
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+    
+    .MainInfo p {
+        width: auto;
+        font-size: 16px;
+    }
+    .footerInfo p{
+        font-size: 18px;
+    }
+}
+@media (max-width:480px) {
+    .MainInfo{
+        width: 95%;
+    }
+    .MainInfo h1 {
+        width: 95%;
+        font-size: 35px;
+        line-height: 50px;
+
+    }
+    
+    .MainInfo p {
+        width: 90%;
+        font-size: 16px;
+    }
+    .footerInfo p{
+        font-size: 17px;
+        width: 95%;
+    }
+    .footerInfo{
+        width: 100%;
+    }
+}
