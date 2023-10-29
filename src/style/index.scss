@@ -100,7 +100,6 @@ body {
     justify-content: center;
     gap: .75rem;
     background-color: var(--crl);
-    color: #d;
     border-radius: 10rem;
     font-weight: 400;
     padding: .75rem 1.5rem;
@@ -241,5 +240,180 @@ body {
 
     100% {
         translate: 100%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:1024px) {
+    .FooterNetworks{
+        gap: 30px;
+    }
+    .Networks{
+        gap: 15px;
+    }
+    .Network {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .Network p {
+        font-family: "Title_font", sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .HeaderText h1 {
+        width: 915px;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 100px;
+        color: #C0FF03;
+        text-align: center;
+        font-family: "Title_font", sans-serif;
+    }
+    
+    .HeaderText p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #FDFDFD;
+        width: 470px;
+    
+    }
+    
+    .MainInputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+    }
+    .MainInputs input {
+        background-color: transparent;
+        outline: none;
+        width: 306px;
+        height: 70px;
+        border-radius: 100px;
+        border: 1px solid #FDFDFD;
+        color: #FDFDFD;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 0px 16px;
+    }
+    .button {
+        cursor: pointer;
+        width: 306px;
+        height: 70px;
+        line-height: 1;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .75rem;
+        background-color: var(--crl);
+        border-radius: 10rem;
+        font-weight: 400;
+        padding: .75rem 1.5rem;
+        padding-left: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: background-color .3s;
+        font-size: 24px;
+        transition: all 0.4s ease;
+        border: 1px solid #9dd003;
+        outline: none;
+    }
+}
+
+@media screen and (max-width:1023px)and (min-width:769) {
+    .MainInputs{
+        flex-wrap: wrap;
+    }
+    .FooterNetworks{
+        gap: 30px;
+    }
+    .Networks{
+        gap: 15px;
+    }
+    .Network {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .Network p {
+        font-family: "Title_font", sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .HeaderText h1 {
+        width: 915px;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 100px;
+        color: #C0FF03;
+        text-align: center;
+        font-family: "Title_font", sans-serif;
+    }
+    
+    .HeaderText p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #FDFDFD;
+        width: 470px;
+    
+    }
+    
+    .MainInputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+    }
+    .MainInputs input {
+        background-color: transparent;
+        outline: none;
+        width: 306px;
+        height: 70px;
+        border-radius: 100px;
+        border: 1px solid #FDFDFD;
+        color: #FDFDFD;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 0px 16px;
+    }
+    .button {
+        cursor: pointer;
+        width: 306px;
+        height: 70px;
+        line-height: 1;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .75rem;
+        background-color: var(--crl);
+        border-radius: 10rem;
+        font-weight: 400;
+        padding: .75rem 1.5rem;
+        padding-left: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: background-color .3s;
+        font-size: 24px;
+        transition: all 0.4s ease;
+        border: 1px solid #9dd003;
+        outline: none;
     }
 }
