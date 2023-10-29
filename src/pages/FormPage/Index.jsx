@@ -7,7 +7,7 @@ import pochta from '../../icons/pochta.svg'
 import { InputMask } from 'primereact/inputmask';
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
-
+import {Link} from "react-router-dom
 
 export default function FormPage() {
   const navigate = useNavigate()
@@ -58,8 +58,10 @@ export default function FormPage() {
   return (
     <div className='FormPage'>
       <div className="HeaderText">
-        <h1>Lorem impsum doler sit amet</h1>
-        <p>Оставьте заявку и наши менеджеры свяжутся с вами в ближайшее время.Работаем без выходных с 9:00 до 21:00</p>
+        <h1>MIT Academydan 1 oylik kurs uchun 15% olishni istasangiz ro’yxatdan o’ting.</h1>
+        <p>Bizga so’rov qoldiring va menejerlarimiz siz bilan imkon qadar tezroq bog’lanishga harakat qilishadi. Biz haftada 7 kun, soat 10:00 dan 20:00 gacha ishlaymiz.
+
+</p>
       </div>
       <div className="MainInputs">
         <input name='name' type="text" placeholder='Ism Familya' value={formData.name} onChange={inputValue} />
@@ -82,35 +84,17 @@ export default function FormPage() {
         <p className='FooterInfoText'>Оставьте заявку и наши менеджеры свяжутся с вами в ближайшее время.Работаем без выходных с 9:00 до 21:00</p>
         <div className="FooterNetworks">
           <div className="Networks">
-            <div className="Network">
+            <Link to="tel:+998555153030" className="Network">
               <img src={phone} alt="" />
-              <p>+998 71 200 07 07</p>
-            </div>
-            <div className="Network">
+              <p>+998 55 515 30 30</p>
+            </Link>
+            <Link to="https://www.instagram.com/mitacademyuz/" className="Network">
               <img src={insta} alt="" />
               <p>Mister.IT</p>
-            </div>
+            </Link>
           </div>
-          <div className="Networks">
-            <div className="Network">
-              <img src={phone} alt="" />
-              <p>+998 71 200 07 07</p>
-            </div>
-            <div className="Network">
-              <img src={tg} alt="" />
-              <p>@Mister.IT</p>
-            </div>
-          </div>
-          <div className="Networks">
-            <div className="Network">
-              <img src={pochta} alt="" />
-              <p className='indexPochta'>Info@mrit.gmail.com</p>
-            </div>
-            <div className="Network">
-              <img src={facebook} alt="" />
-              <p>Mister.IT</p>
-            </div>
-          </div>
+      
+      
         </div>
       </div>
 
