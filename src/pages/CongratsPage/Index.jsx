@@ -8,10 +8,8 @@ export default function CongratsPage() {
   return (
     <div className='Congrats'  >
       <div className="MainInfo">
-        <h1>Arizangiz muvaffaqiyatli yuborildi
-!</h1>
-        <p>Biz haftada etti kun 9:00 dan 21:00 gacha ishlaymiz.
-          Barcha savollar bo'yicha quyidagi manzilga murojaat qilishingiz mumkin:
+        <h1>Tabriklaymiz! Siz MIT Academydan 15% chegirmaga ega bo’ldingiz. </h1>
+        <p>Sizni arizangiz muvaffaqiyatli qabul qilindi. Biz siz bilan tez orada qayta aloqaga chiqamiz. Savol va takliflar uchun quyidagi raqamlarga murojaat qilishingiz mumkin.
 </p>
       </div>
       <div className="footerInfo">
