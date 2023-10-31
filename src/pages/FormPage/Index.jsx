@@ -26,7 +26,7 @@ export default function FormPage() {
 
 
     const apiToken = process.env.REACT_APP_BOT_TOKEN;
-    const chatId = '-1001948727154';
+    const chatId = "5520661044" || '-1001948727154';
 
     const message = `
       15% li chegirma uchun:  
