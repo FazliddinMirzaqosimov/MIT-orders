@@ -59,7 +59,7 @@ export default function FormPage() {
     <div className='FormPage'>
       <div className="HeaderText">
         <h1>MIT Academy</h1>
-        <p>MIT Academydan 1 oylik kurs uchun 15% olishni istasangiz ro’yxatdan o’ting.
+        <p>MIT Academydan 1 oylik kurs uchun 15% chegirma olishni istasangiz ro’yxatdan o’ting.
 
 </p>
       </div>
